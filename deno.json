@@ -1,0 +1,20 @@
+{
+  "imports": {
+    "$fmt/": "https://deno.land/std@0.195.0/fmt/",
+    "$std/": "https://deno.land/std@0.195.0/"
+  },
+  "tasks": {
+    "test": "deno test -A"
+  },
+  "fmt": {
+    "useTabs": false,
+    "lineWidth": 80,
+    "indentWidth": 2,
+    "semiColons": false,
+    "singleQuote": true,
+    "proseWrap": "preserve",
+    "include": [
+      "src/"
+    ]
+  }
+}
