@@ -1,10 +1,14 @@
+/**
+ * @class
+ * @classdesc Represents a Node in a linked list.
+ */
 class Node<T> {
   value: T
-  next: Node<T> | null
+  next: Node<T> | undefined
 
   constructor(value: T) {
     this.value = value
-    this.next = null
+    this.next = undefined
   }
 }
 
