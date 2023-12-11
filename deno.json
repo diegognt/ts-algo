@@ -1,7 +1,7 @@
 {
   "imports": {
-    "$fmt/": "https://deno.land/std@0.195.0/fmt/",
-    "$std/": "https://deno.land/std@0.195.0/"
+    "$fmt/": "https://deno.land/std@0.206.0/fmt/",
+    "$std/": "https://deno.land/std@0.206.0/"
   },
   "tasks": {
     "test": "deno test -A"
